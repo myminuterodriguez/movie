@@ -19,7 +19,7 @@ class App extends Component {
                 loaded:true
                 }
             )
-        },200)
+        },30000)
     }
 
     updateSelectedMovie = (index) => {
