@@ -1,0 +1,18 @@
+.container {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin: 7px;
+  cursor: pointer;
+  &:hover{
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+  }
+}
